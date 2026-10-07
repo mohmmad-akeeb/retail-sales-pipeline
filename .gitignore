@@ -1,0 +1,20 @@
+data/raw/*
+data/bronze/*
+data/silver/*
+data/quarantine/*
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/quarantine/.gitkeep
+
+logs/
+.env
+.venv/
+__pycache__/
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
